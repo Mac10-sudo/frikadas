@@ -1,1 +1,0 @@
-# Mi configuración de emacs
