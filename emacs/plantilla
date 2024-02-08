@@ -1,0 +1,22 @@
+# -*- mode: org -*-
+#+TITLE: Apuntes curso CISCO - JavaScript Essentials 1
+#+AUTHOR: Ismael Macareno Chouikh
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+#+STARTUP: inlineimages org-tree-slide-presentation-profile
+#+LANGUAGE: es
+# OPTIONS: toc:nil, en caso de que quereamos quitar la tabla de contenidos
+
+# Para quitar el recuadro que se pone por defecto a los títulos de la tabla de contenidos
+#+LATEX_HEADER: \hypersetup{colorlinks, linkcolor=black}
+
+# Para establecer una cabecera de página con lado derecho e izquierdo y también el pie de página con lado izquierdo y derecho y formato de conteo de páginas en 1 de X
+#+LaTeX_HEADER: \usepackage{geometry}
+#+LaTeX_HEADER: \geometry{top=2cm}
+#+LaTeX_HEADER: \geometry{bottom=2cm}
+#+LaTeX_HEADER: \usepackage{fancyhdr}
+#+LaTeX_HEADER: \pagestyle{fancy}
+#+LaTeX_HEADER: \fancyhf{}
+#+LaTeX_HEADER: \fancyhead[L]{Lenguaje de Marcas}
+#+LaTeX_HEADER: \fancyhead[R]{Tema 03 - JavaScript}
+#+LaTeX_HEADER: \fancyfoot[R]{\thepage\ de \pageref{lastpage}} 
+#+LaTeX_HEADER: \fancyfoot[L]{CC BY-NC-SA 4.0} 
