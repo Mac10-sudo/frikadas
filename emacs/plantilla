@@ -1,5 +1,5 @@
 # -*- mode: org -*-
-#+TITLE: Apuntes curso CISCO - JavaScript Essentials 1
+#+TITLE: Plantilla para documentos org, header, footer, márgenes...
 #+AUTHOR: Ismael Macareno Chouikh
 #+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
 #+STARTUP: inlineimages org-tree-slide-presentation-profile
