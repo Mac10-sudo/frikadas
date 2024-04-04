@@ -1,5 +1,5 @@
 # -*- mode: org -*-
-#+TITLE: Plantilla para documentos org, header, footer, márgenes...
+#+TITLE: Práctica VLAN en Cisco
 #+AUTHOR: Ismael Macareno Chouikh
 #+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
 #+STARTUP: inlineimages org-tree-slide-presentation-profile
@@ -16,7 +16,28 @@
 #+LaTeX_HEADER: \usepackage{fancyhdr}
 #+LaTeX_HEADER: \pagestyle{fancy}
 #+LaTeX_HEADER: \fancyhf{}
-#+LaTeX_HEADER: \fancyhead[L]{Lenguaje de Marcas}
-#+LaTeX_HEADER: \fancyhead[R]{Tema 03 - JavaScript}
-#+LaTeX_HEADER: \fancyfoot[R]{\thepage\ de \pageref{lastpage}} 
-#+LaTeX_HEADER: \fancyfoot[L]{CC BY-NC-SA 4.0} 
+#+LaTeX_HEADER: \fancyhead[L]{Planificación y administración de redes}
+#+LaTeX_HEADER: \fancyhead[R]{Tema 08 - Seguridad en la red local: VLAN y ACL}
+#+LaTeX_HEADER: \fancyfoot[R]{\thepage} 
+#+LaTeX_HEADER: \fancyfoot[L]{CC BY-NC-SA 4.0}
+#+LATEX_HEADER: \usepackage{parskip}
+
+#+LaTeX_HEADER: \usepackage{mdframed}
+#+LaTeX_HEADER: \usepackage{fancyvrb}
+#+LaTeX_HEADER: \usepackage{xcolor}
+
+#+LaTeX_HEADER: \definecolor{shadecolor}{RGB}{220,220,220}
+
+#+LaTeX_HEADER: \newenvironment{shadedcode}{%
+#+LaTeX_HEADER:     \VerbatimEnvironment
+#+LaTeX_HEADER:     \begin{mdframed}[backgroundcolor=shadecolor,linewidth=0pt]}%
+#+LaTeX_HEADER:     {\end{mdframed}}
+#+LaTeX_HEADER: \usepackage{attachfile2}
+#+LATEX_HEADER: \newcommand{\textattachfilecolor}[2]{\textattachfile[color=0 0 0.5]{#1}{\textcolor{blue}{#2}}}
+#+LATEX_HEADER: \usepackage[spanish]{babel}
+#+LATEX_HEADER: \usepackage{datetime2}
+#+LATEX_HEADER: \DTMlangsetup[es-ES]{ord=raise}
+#+LATEX_HEADER: \renewcommand{\dateseparator}{/}
+#+LATEX_HEADER: \usepackage{titlesec}
+#+LATEX_HEADER: \usepackage{afterpage}
+#+LATEX_HEADER: \newcommand\blankpage{\null\thispagestyle{empty}\newpage}
