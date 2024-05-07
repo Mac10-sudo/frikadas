@@ -1,0 +1,56 @@
+* Software necesario
+** DONE Emacs
+** TODO Oracle Virtualbox latest version (7.0.14)
+*** DONE Instalar Oracle Virtualbox
+*** DONE Instalar Extension pack
+*** TODO Test para ver funcionamiento de las máquinas virtuales
+** TODO VMWare
+*** TODO Instalar VMWare
+*** TODO Probar el funcionamiento de VMware
+** TODO Packet tracer latest version (8.2.1)
+*** TODO Instalar Packet tracer
+      Por lo visto da problemas en fedora.
+      Posible solución: usar packet tracer en container o en máquina virtual
+*** TODO Test para ver funcionamiento de packet tracer
+** TODO Microsoft Visual studio code 🤮
+*** TODO [#B] Instalar VSCode
+*** TODO Ver el funcionamiento de VSCode
+** TODO Apache Netbeans latest version (21)
+*** TODO Instalar Apache Netbeans
+*** TODO Test para ver funcionamiento de apache netbeans
+** TODO Navegadores (a discutir)
+*** Firefox
+*** Chrome 🤮
+*** Brave
+** TODO Veyon
+*** TODO Instalar Veyon
+*** TODO Test para ver el funcionamiento de veyon
+**** TODO Test en MV
+**** TODO Test con al red real
+** TODO Oracle SQL Developer
+*** DONE Instalar Oracle SQL Developer
+Problemas con java. Se soluciona con el siguiente comando:
+#+BEGIN_SRC sh
+yum install -y java-1.8*
+#+END_SRC
+*** DONE [#A] Crear fichero .desktop
+Para esto lo que hago es crear el siguiente fichero .desktop en /usr/share/applications
+#+BEGIN_SRC
+[Desktop Entry]
+Name=SQL Developer
+Comment=Oracle SQL Developer
+GenericName=SQL Developer for Linux
+Exec=/usr/share/sqldeveloper/sqldeveloper.sh
+Type=Application
+Categories=Developer;
+Icon=/usr/share/sqldeveloper/icon.png
+#+END_SRC
+*** DONE Realizar un test de funcionamiento
+** TODO Docker (No se sabe todavía si o no)
+
+* Configuraciones necesarias
+** Fijar fondo coorporativo
+** Revisar los permisos tanto de alumnom como de alumnot
+   Esto lo digo porque me he encontrado a veces que en ambos usuarios se puede mediante la terminal (y con dos dedos de frente) copiar
+   y mover ficheros del otro usuario al suyo
+** Intentar quitar los juegos por defecto del SSOO
